@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <body style="background-color: aliceblue;">
+
+<div class= "heading"><a href= "index.html">fionn duffy</a><br><a href= "info.html"> info </a></div>
+
+<br>
+
+<!LEFT>
+
+
+<div class="flex-container">
+
+    <div class="flex-child magenta">
+
+  <button class="accordion">on whose permission</button>
+
+   <div class=”panel” style="display: none;">
+<div class= "text">
+<p>
+  (2019)<br><br>
+<i>pencil, video, etched acrylic, black PLA 3D prints</i><br><br>
+
+Within metal detecting communities, a “permission” is the right given by a landowner to detect on their property. <br>
+<br>Drawing connections between the value placed upon artefacts themselves and their representations online, permission has been granted to the artist to use images from eBay of finds, made into faulty replicas through the use of image scanning software.
+<br>These images are laser-etched onto acrylic before being printed, and brought into 3-dimensions.
+<br><br>Anonymised conversations on screen demonstrate the autodidactic knowledge shared by enthusiasts, be that through discussions of the politics surrounding land ownership and property laws or how to clean an artefact safely with vaseline.
+<br><br>
+<i>On Whose Permission</i> was developed with support from Digital Artist Residency, and exhibited at Ovada Gallery, Oxford in September 2019.
+</p>
+</div>
+  </DIV>
+
+<img src="onwhoseperm/1-web.jpg" height = 400 width = auto class= "responsive">
+
+    </div>
+
+<!RIGHT>
+
+<div class="flex-child green">
+
+<img src="onwhoseperm/2-web.jpg" height = 400 width = auto class= "responsive">
+<img src="onwhoseperm/3-web.jpg" height = 400 width = auto class= "responsive">
+</div>
+</div>
+</div>
+
+
+
+</body>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+body{
+
+  font-family: 'Cardo', serif;
+
+
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.flex-child {
+    flex: 1;
+    border: 0px solid yellow;
+}
+
+.flex-child:first-child {
+    margin-right: 10px;
+}
+
+.accordion {
+  background-color: transparent;
+  color: lightgreen;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 30px;
+  font-family: 'Cardo', serif;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: transparent;
+  color: green;
+
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #fff;
+  color: green;
+  overflow: hidden;
+}
+
+@media(max-width: 768px){
+
+  .img{
+    max-width:80vw;
+    height:auto;
+    }
+
+    .accordion {
+      font-size:20px;
+}
+
+.flex-container {
+        display: flex;
+        flex-direction: column;
+
+  }
+
+}
+
+a {
+  color: green;
+
+}
+
+a:hover {
+  color: lightgreen;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+.heading{
+  font-size: 30px;
+  margin: auto;
+  color: green;
+}
+
+.titles{
+  font-size: 20px;
+  margin-left: 30px;
+  color: lightgreen;
+}
+
+.text{
+  font-size: 15px;
+  margin-left: 20px;
+  color: green;
+  width: 70%;
+}
+
+.img1{
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    position: responsive;
+    }
+
+    .responsive {
+      width: 100%;
+      height: auto;
+    }
+
+    #left{
+       float: left;
+     }
+     #right{
+       float: right;
+     }
+
+     #first {
+      z-index: 2;
+    }
+
+    #second {
+      z-index: 1;
+    }
+
+
+
+
+</style>
+
+
+
+</html>

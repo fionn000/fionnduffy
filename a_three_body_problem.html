@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <body style="background-color: aliceblue;">
+
+<div class= "heading"><a href= "index.html"> fionn duffy</a><br> <a href= "info.html"> info </a></div>
+
+<br>
+
+              <div class="flex-container">
+
+  <!LEFT>
+
+                <div class="flex-child magenta">
+
+                <button class="accordion">a three-body problem</button>
+
+                 <div class=”panel” style="display: none;">
+              <div class= "text">
+              <p>
+                (2017-ongoing)<br><br>
+
+                A three-body problem is a predicament of triangulation. While triangulation is compelling as a stable structure, its form is hard to break and doesn’t suffer the myopia a two-body problem presents.<br><br>
+
+                The first two bodies are collaborators, Fionn Duffy and Ashley Bedet, who reside both a continent and an ocean apart. These are the bodies they each possess (we shall call them bodies I and II)
+                but there is also the potential third body (body III) which keeps their communications from falling apart.<br><br>
+
+                Body III presents a paradox, it is the land, the ocean, the air, the geographic distance between two people and all that physically exists within the bounds of their delineation.
+                It is also the radio waves, the data and the words that connect and counterweight the line of communication, as the artists create, sustain and explore their distance together.
+                With a keen interest in the poetic surfeit that surfaces with a broadened approach to understanding and knowing the world, they maintain conversation about the very nature of our ways of sharing and consuming knowledge.<br>
+                </p>
+
+              </div>
+              </div>
+
+                <div class="img1"><img src="3body/whitt_doc200830_9877_web.jpg" height = 400 width = auto class= "responsive">
+
+                  <img src="3body/whitt_doc200830_9829_web.jpg" height = 400 width = auto class= "responsive">
+
+                  <img src="3body/whitt_doc200830_9793_web1.jpg" height = 400 width = auto class= "responsive">
+
+
+              </div>
+              </DIV>
+
+
+<!RIGHT>
+
+
+            <div class="flex-child green">
+
+
+          <div class= "img1"><!-- A new div image -->
+
+          <img src="3body/book1.jpg" class= "responsive"> </img>
+
+          <button class="accordion"><i>the space between two points</i></button>
+
+           <div class=”panel” style="display: none;">
+          <div class= "text">
+            <i>
+              You might have glanced at the billboard by the entrance without knowing it’s the Glasgow sky, the view from B’s front door. Scottish clouds beneath the Calgary blue, it’s an act of mirroring and dissonance. An exercise in placing perspectives together.
+              <br><br></i>
+              We meet in the building next to the billboard at the beginning of A’s day, which is the end of B’s. A’s 9am is B’s 4pm, and we use this knowledge as a guide for our own dead reckoning of times. A little earlier, a little later, B counts the hours and the minutes on her fingers in order to find A. We have reflected on this realtime dislocation and are curious about your thoughts on how or if this sort of exchange falls in the category of time travel.
+              <br><br>  <i>
+              The evening feels very cinematic over here. Since so many things are constantly moving around this space it feels very strange. I am in this empty space I’m slowly filling with our things, but the space outside is only ever briefly empty before another person, vehicle, thing, moves through it.
+              <br><br>  </i>
+              We brought our spider plants together at the screen once, a way of bridging time and space through variegated leaves. We didn’t know it, but it seems we were reconstructing a common Victorian pose. A sat in her rocking chair, hands on her lap while B collected light through the skype window.
+              <br><br>  <i>
+              Do you have houseplants too? Do they sit near a window?
+              <br><br> </i>
+              A stereoscope is composed of two nearly identical images—it is the reverse of what our eyes do to the world around us. Stereoscopes are devices that give your left and right eye two partitioned images. When we look through the stereoscope, the two emerge as one in a third dimension.
+              <br><br> <i>
+              I’m looking at a photograph of a woman. Or, to be more precise I am looking at two photographs of a woman, side by side. The two images are intended to be seen as a stereoscope, a technology which tricks the eyes into seeing depth in something flat.
+              <br><br>  </i>
+              The stereoscope has become a prompt for seeing the world.
+              <br><br> <i>
+              The woman isn’t alone. The more I search the more I find, most early photographic portraits seem to include at least one plant. Ferns and palms seem the most popular (perhaps due to the poor air quality of Victorian homes lit with gas lamps, less hardy flora was more difficult to keep alive). I like that we’re still sitting with plants.
+              <br><br>  </i>
+              Videos, monitors, sculptures, clouds, the sounds we listen to in our homes, they are all grounds for overlap. This adds dimension, depth, and richness to the act of gathering and observing our respective places. Understanding our own myopic perspectives, they materialize into something greater when merged.</i></p>
+            </div></DIV>
+          </div>
+
+
+
+
+
+ </div>
+</div>
+
+
+</div>
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 0px solid yellow;
+}
+
+.flex-child:first-child {
+    margin-right: 10px;
+}
+
+.accordion {
+  background-color: transparent;
+  color: lightgreen;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 30px;
+  font-family: 'Cardo', serif;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: transparent;
+  color: green;
+
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #fff;
+  color: green;
+  overflow: hidden;
+}
+
+@media(max-width: 768px){
+
+  .img{
+    max-width:80vw;
+    height:auto;
+    }
+
+    .accordion {
+      font-size:20px;
+}
+
+.flex-container {
+        display: flex;
+        flex-direction: column;
+  }
+
+}
+
+body{
+
+font-family: 'Cardo', serif;
+
+}
+
+a {
+  color: green;
+
+}
+
+a:hover {
+  color: lightgreen;
+}
+
+a:link {
+  text-decoration: none;
+}
+.heading{
+  font-size: 30px;
+  margin: auto;
+  color: green;
+}
+
+.titles{
+  font-size: 20px;
+  margin-left: 30px;
+  color: lightgreen;
+}
+
+.text{
+  font-size: 15px;
+  margin-left: 20px;
+  color: green;
+  width: 70%;
+}
+
+.img1{
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    position: responsive;
+    }
+
+    .responsive {
+      width: 100%;
+      height: auto;
+    }
+
+    #left{
+       float: left;
+     }
+     #right{
+       float: right;
+     }
+
+     #first {
+      z-index: 2;
+    }
+
+    #second {
+      z-index: 1;
+    }
+
+
+
+</style>
+
+
+
+</html>
