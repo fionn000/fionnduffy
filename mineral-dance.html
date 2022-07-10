@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+  <body style="background-color: aliceblue;">
+    <p style="background-image: url('beads-1.png');">
+
+<div class= "heading"><a href= "index.html">fionn duffy</a><br><a href= "info.html"> info </a></div>
+
+<br>
+
+
+
+  <button class="accordion">a mineral dance:</button>
+
+   <div class=”panel” style="display: none;">
+<div class= "text">
+<p>
+  (2020 - ongoing)<br><br>
+
+
+<i>  A Mineral Dance: Or How To Become Glass</i> is a research project exploring the 18th Century Kelping Industry, which signalled the dissolution of tenant-landlord relations based on tithes and the emergence of capital-based land holdings, and the 20th century Nuclear Industry and their legacies on our coastal regions through an attempt to make glass out of seaweed and sand.  The significance of glass as a material stems from both its role in the Kelping Industry, where seaweed ash was transported to industrial centres to be used in glassmaking, while vitrification is one method used to store radioactive waste in the nuclear industry.<br><br>
+  Gathering seaweed and sand and processing these slowly by<span id="wp1"></span> hand, opens up questions surrounding the energy and labour involved in creating such a ubiquitous material; the material legacies of historic and contemporary industries, the porous boundaries between human and mineral processes and the persistence of commodity chains which have shaped our coastal regions for centuries.
+<br><br>  The project has so far resulted in a 3-channel video documenting the process of making glass, woven together with research surrounding the archaeological and geological legacies of human industries on the landscape. Much of the glass has been formed into beads and gifted to those involved in the process, acting as a communally owned artwork, while waste from the glass-making process has been formulated into ceramic glazes.
+ <br><br>
+
+<i>A Mineral Dance</i> has been supported by Creative Scotland,
+Historic Environment Scotland, The Hope Scott Trust and The Catherine Mackichan
+Award.
+<br><br>
+
+
+  </p>
+
+
+</div>
+</DIV>
+
+
+
+
+<img src="mineral-video/glass-still-1.png" height = 400 width = auto class= "responsive">
+<img src="mineral-video/fionn-duffy-02.jpg" height = 400 width = auto class= "responsive">
+<img src="mineral-video/glass-still-4.png" height = 200 width = auto class= "responsive">
+<img src="mineral-video/glass-still-12.png" height = 200 width = auto class= "responsive">
+<img src="mineral-video/glass-still-5.png" height = 200 width = auto class= "responsive">
+<img src="mineral-video/glass-still-16.png" height = 200 width = auto class= "responsive">
+<img src="mineral-video/glass-still-7.png" height = 200 width = auto class= "responsive">
+<img src="mineral-video/glass-still-8.png" height = 200 width = auto class= "responsive">
+<img src="mineral-video/glass-still-11.png" height = 200 width = auto class= "responsive">
+<img src="mineral-video/glass-still-13.png" height = 200 width = auto class= "responsive">
+
+
+
+
+
+
+
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+body{
+
+  font-family: 'Cardo', serif;
+
+
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 0px solid yellow;
+}
+
+.flex-child:first-child {
+    margin-right: 10px;
+}
+
+.accordion {
+  background-color: transparent;
+  color: lightgreen;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 30px;
+  font-family: 'Cardo', serif;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: transparent;
+  color: green;
+
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #fff;
+  color: green;
+  overflow: hidden;
+}
+
+@media(max-width: 768px){
+
+  .img{
+    max-width:80vw;
+    height:auto;
+    }
+
+    .accordion {
+      font-size:20px;
+}
+
+.flex-container {
+        display: flex;
+        flex-direction: column;
+
+  }
+}
+
+a {
+  color: green;
+
+}
+
+a:hover {
+  color: lightgreen;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+.heading{
+  font-size: 30px;
+  margin: auto;
+  color: green;
+}
+
+.titles{
+  font-size: 20px;
+  margin-left: 30px;
+  color: lightgreen;
+}
+
+.text{
+  font-size: 15px;
+  margin-left: 20px;
+  color: green;
+  width: 70%;
+}
+
+.img1{
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    position: responsive;
+    }
+
+    .responsive {
+      width: 100%;
+      height: auto;
+    }
+
+    #left{
+       float: left;
+     }
+     #right{
+       float: right;
+     }
+
+     #first {
+      z-index: 2;
+    }
+
+    #second {
+      z-index: 1;
+    }
+
+
+
+
+</style>
+
+
+</body>
+</html>
+
+
+</html>
