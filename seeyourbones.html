@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <body style="background-color: aliceblue;">
+
+<div class= "heading"><a href= "index.html"> fionn duffy</a><br> <a href= "info.html"> info </a></div>
+
+<br>
+
+
+
+<div class="flex-container">
+
+<!LEFT>
+
+  <div class="flex-child magenta">
+
+    <button class="accordion">I can see your bones but I don't know how to read them</button>
+
+     <div class=”panel” style="display: none;">
+  <div class= "text">
+  <p>
+    (2023)<br><br>
+
+  audio (00:27:10),  etched glass, fish glue, glass slag, ceilp glass (beach sand, ceilp/seaweed ash), restoration glass, seed beads, solder, stoneware, tin came, toughened glass table top, video (00:04:21)<br><br>
+
+<br>
+
+
+
+
+</p>  </div>
+
+
+
+
+</div>
+
+<img src="see-your-bones/DSC02235.jpg" height = 200 width = auto class= "responsive">
+<img src="see-your-bones/DSC02078.png" height = 200 width = auto class= "responsive">
+<img src="see-your-bones/DSC02171.png" height = 200 width = auto class= "responsive">
+
+<img src="see-your-bones/DSC02115a.png" height = 200 width = auto class= "responsive">
+<img src="see-your-bones/DSC02200.png" height = 200 width = auto class= "responsive">
+<img src="see-your-bones/DSC02174a.png" height = 200 width = auto class= "responsive">
+<img src="see-your-bones/web_install.jpg" height = 200 width = auto class= "responsive">
+
+
+
+
+</div>
+
+
+<div class="flex-child green">
+<!RIGHT>
+
+<img src="see-your-bones/DSC02183.jpg" height = 200 width = auto class= "responsive">
+<img src="see-your-bones/DSC02092.jpg" height = 300 width = auto class= "responsive">
+<img src="see-your-bones/DSC02104.jpg" height = 300 width = auto class= "responsive">
+
+<img src="see-your-bones/DSC02203.png" height = 300 width = auto class= "responsive">
+<img src="see-your-bones/DSC02129.jpg" height = 300 width = auto class= "responsive">
+<img src="see-your-bones/DSC02163.png" height = 300 width = auto class= "responsive">
+<img src="see-your-bones/DSC02132.png" height = 300 width = auto class= "responsive">
+
+
+
+
+
+
+
+
+ </div>
+</div>
+
+
+</div>
+
+</body>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+body{
+
+  font-family: 'Cardo', serif;
+
+
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.flex-child {
+    flex: 1;
+    border: px solid yellow;
+}
+
+.flex-child:first-child {
+    margin-right: 10px;
+}
+
+.accordion {
+  background-color: transparent;
+  color: lightgreen;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 30px;
+  font-family: 'Cardo', serif;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: transparent;
+  color: green;
+
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #fff;
+  color: green;
+  overflow: hidden;
+}
+
+@media(max-width: 768px){
+
+  .img{
+    max-width:80vw;
+    height:auto;
+    }
+
+    .accordion {
+      font-size:20px;
+}
+    .flex-container {
+          display: flex;
+          flex-direction: column;
+
+}}
+
+a {
+  color: green;
+
+}
+
+a:hover {
+  color: lightgreen;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+.heading{
+  font-size: 30px;
+  margin: auto;
+  color: green;
+}
+
+.titles{
+  font-size: 20px;
+  margin-left: 30px;
+  color: lightgreen;
+}
+
+.text{
+  font-size: 15px;
+  margin-left: 20px;
+  color: green;
+  width: 70%;
+}
+
+.img1{
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    position: responsive;
+    }
+
+    .responsive {
+      width: 100%;
+      height: auto;
+    }
+
+    #left{
+       float: left;
+     }
+     #right{
+       float: right;
+     }
+
+     #first {
+      z-index: 2;
+    }
+
+    #second {
+      z-index: 1;
+    }
+
+
+
+
+</style>
+
+
+
+</html>
