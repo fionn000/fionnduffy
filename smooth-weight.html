@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <body style="background-color: aliceblue;">
+
+<div class= "heading"><a href= "index.html"> fionn duffy</a><br> <a href= "info.html"> info </a></div>
+
+<br>
+
+
+
+<div class="flex-container">
+
+<!LEFT>
+
+  <div class="flex-child magenta">
+
+    <button class="accordion">this smooth weight holds and gluts / tha an cudthrom caoin-sa a glèidheadh 'sa slugadh</button>
+
+     <div class=”panel” style="display: none;">
+  <div class= "text">
+  <p>
+  2023, An Lanntair, Stornoway, Isle of Lewis<br><br>
+
+  <i>this smooth weight holds and gluts,</i> brings together sculpture, video and text
+  originating from Fionn’s investigations into Barvas Ware, a pottery made in Lewis at the turn of the 20th Century. Between residencies with An Lanntair and Scottish Sculpture Workshop, Fionn has drawn from research into early uses of clay and milk from across Scotland, inspired by the female potters of Barvas.<br><br>
+  The forms of Barvas Ware imitated china tea sets, but were made from unprocessed local clay, fired on a hearth and sealed with milk by just a few women over a few decades.
+  decades. Although originally collected by tourists and academics as a “survival of primitive times” (Glasgow International Exhibition Guide, 1901), it now is clear that these objects were produced with humour, exploiting the prejudices of the collectors who bought it.
+  <br><br>Strategies for gathering and the roles of collector and maker, producer and consumer are central to the exhibition. Playing with modes of display associated with archives and the domestic, Fionn dissects cultural and social signifiers associated with the decorative arts, considering the cycles of mimicry and historic techniques used by the makers of Barvas Ware as a canny extrapolation of a romanticised past which resists categorisation.
+  A congregation of ceramic vessels influenced by the ornamentation and materiality of Barvas Ware, are the results of Fionn’s experimentation with clays sourced from Lewis and Aberdeenshire in various states of production from raw clay through bisque firings, milk sealing and glazing. These are accompanied by a series of collaged
+  paintings made with tea, framed with milk plastic, and etched with a list of Lady Matheson’s belongings at Lews Castle, which were documented only due to a dispute over her will after her death. <br><br>
+
+  Meanwhile a stand of postcards acts as a library of sorts, draws from the sculptural form of heritage and tourist economies with postcards depicting arrangements of Fionn’s pots influenced by images of Barvas Ware from The National Museum of Scotland,
+  alongside images chosen by artists whose work has had a direct affect on the process of research through the project; <a href= "https://www.alexhackett.net">Alex Hackett</a>, <a href= "https://www.aliciamatthews.co.uk/">Alicia Matthews</a>, <a href= "https://www.annecampbellart.co.uk/about.html">Anne Campbell</a>,
+  <a href= "https://sandberg.nl/graduation2021/draft/hannah-rose-whittle">Hannah Rose Whittle</a>, <a href= "https://www.deveron-projects.com/artists/kawther-luay/">Kawther Luay</a>, <a href= "https://www.sholavonreinhold.com/">Shola von Reinhold</a> and <a href= "https://www.borghpottery.co.uk/"> Sue Blair</a>.
+
+
+
+
+
+
+</p>  </div>
+
+
+
+
+</div>
+
+<img src="smooth-weight/2.jpg" height = 200 width = auto class= "responsive">
+<img src="smooth-weight/4.jpg" height = 200 width = auto class= "responsive">
+<img src="smooth-weight/6.jpg" height = 200 width = auto class= "responsive">
+
+<img src="smooth-weight/8.jpg" height = 200 width = auto class= "responsive">
+<img src="smooth-weight/11.jpg" height = 200 width = auto class= "responsive">
+<img src="smooth-weight/12.jpg" height = 200 width = auto class= "responsive">
+<img src="smooth-weight/15.jpg" height = 200 width = auto class= "responsive">
+
+
+
+
+
+
+
+</div>
+
+
+<div class="flex-child green">
+<!RIGHT>
+
+<img src="smooth-weight/14.jpg" height = 200 width = auto class= "responsive">
+<img src="smooth-weight/5.jpg" height = 200 width = auto class= "responsive">
+<img src="smooth-weight/7.jpg" height = 200 width = auto class= "responsive">
+<img src="smooth-weight/9.jpg" height = 200 width = auto class= "responsive">
+
+<img src="smooth-weight/10.jpg" height = 200 width = auto class= "responsive">
+
+<img src="smooth-weight/13.jpg" height = 200 width = auto class= "responsive">
+
+
+
+
+
+
+
+
+ </div>
+</div>
+
+
+</div>
+
+</body>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+body{
+
+  font-family: 'Cardo', serif;
+
+
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.flex-child {
+    flex: 1;
+    border: px solid yellow;
+}
+
+.flex-child:first-child {
+    margin-right: 10px;
+}
+
+.accordion {
+  background-color: transparent;
+  color: lightgreen;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 30px;
+  font-family: 'Cardo', serif;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: transparent;
+  color: green;
+
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #fff;
+  color: green;
+  overflow: hidden;
+}
+
+@media(max-width: 768px){
+
+  .img{
+    max-width:80vw;
+    height:auto;
+    }
+
+    .accordion {
+      font-size:20px;
+}
+    .flex-container {
+          display: flex;
+          flex-direction: column;
+
+}}
+
+a {
+  color: green;
+
+}
+
+a:hover {
+  color: lightgreen;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+.heading{
+  font-size: 30px;
+  margin: auto;
+  color: green;
+}
+
+.titles{
+  font-size: 20px;
+  margin-left: 30px;
+  color: lightgreen;
+}
+
+.text{
+  font-size: 15px;
+  margin-left: 20px;
+  color: green;
+  width: 70%;
+}
+
+.img1{
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    position: responsive;
+    }
+
+    .responsive {
+      width: 100%;
+      height: auto;
+    }
+
+    #left{
+       float: left;
+     }
+     #right{
+       float: right;
+     }
+
+     #first {
+      z-index: 2;
+    }
+
+    #second {
+      z-index: 1;
+    }
+
+
+
+
+</style>
+
+
+
+</html>
