@@ -1,90 +1,106 @@
 <!DOCTYPE html>
 <html>
+<style>
+* {
+  box-sizing: border-box;
+}
 
-<body>
-<body style="background-color: aliceblue;">
+  @import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
 
-    <style>
 body {
-  background-image: url('background-drawing.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-background-position: right;
-    opacity: 0.9;
+  margin: 0;
+    font-family: 'Cardo', serif;
+}
+
+
+
+
+  a {
+    color: #59E817;
+
+  }
+
+  a:hover {
+    color: green;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 40%;
+  padding: 40px;
+}
+
+.column img {
+  margin-top: 60px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 </style>
 
-<div class= "heading">fionn duffy<br><a href= "info.html"><span style="color: green">info</span></a></div>
+<body style="background-color: aliceblue;">
 
-<br>
-<div class="flex-container">
+  <style>
+body {
+  background-image: url('background-darwing.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 30%;
+  background-position:right;
+  opacity: 1;
+}
 
-<!LEFT>
 
-  <div class="flex-child magenta">
-
-<div class= titles>
-
-  <a href="white-teeth.html">white teeth, good nature</a><br>
-
-    <a href="had-the-space.html">if only we had the space</a><br>
-
-  <a href="hikitsugu-2.html">引き継ぐ: nets, eddies and cadences of habit</a><br>
-
-    <a href="dream-makers.html">dream makers</a><br>
-    
- <a href="smooth-weight.html">this smooth weight holds and gluts / tha an cudthrom caoin-sa a glèidheadh 'sa slugadh </a><br>
-
-  <a href="gathering-table.html">(Act 3: Clay) with Kawther Luay </a><br>
-  
-   <a href="seeyourbones.html">I can see your bones but I don't know how to read them </a><br>
-
-<a href="mineral-flo.html"> a mineral dance (or how to become glass) </a><br>
-
-  <a href="whistlers.html">the story of white's whistlers</a><br>
-
-  <a href= "a_three_body_problem.html">a three-body problem </a><br>
-
-  <a href="https://www.e-flux.com/video/395771/speculative-fiction-practicing-collectively/">speculative fiction: practicing collectively </a> <br>
+</style>
 
 
 
+<body>
+
+<!-- Header -->
+<div class= "heading"><a href= "home.html"> fionn duffy</a><br> <a href= "info.html"> info </a></div>
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+  <a href="white-teeth.html"> <img src="white-teeth/web-4a.png" style="width:100%"> <a/>
+        <a href="hikitsugu.html"> <img src="hikitsugu/week7/DSC03444.jpg" style="width:100%"> </a>
+    <a href="whistlers.html">  <img src="whites-whistlers/still007.jpg" style="width:100%"> </a>
+      <a href="mineral-flo.html">   <img src="mineral-florence/9k.jpg" style="width:100%"> </a>
+  <a href="seeyourbones.html"><img src="see-your-bones/DSC02163.png" style="width:100%"> </a>
+
+
+  </div>
+  <div class="column">
+    <a href="hikitsugu.html"><img src="hikitsugu/week1/Still008.jpg" style="width:100%"> </a>
+    <a href="smooth-weight.html"><img src="smooth-weight/1.jpg" style="width:100%"></a>
+        <a href="gathering-table.html"><img src="gathering-table/14.jpg" style="width:100%"></a>
+    <a href="had-the-space.html"> <img src="had-the-space/If-Only-We-Had-The-Space-22.png" style="width:100%"> </a>
+        <a href="a_three_body_problem.html"><img src="3body/whitt_doc200830_9829_web.jpg" style="width:100%"> </a>
+
+
+  </div>
+  <div class="column">
 
 
 
+
+
+  </div>
 
 </div>
-</div>
-
-
-<div class="flex-child green">
-
-  <img src="mineral-florence/9k.jpg" width = 700 id= center id= second>
 
 </body>
-
-
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
-</script>
-
-
-
-
 <style>
 
 @import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
@@ -94,50 +110,22 @@ body{
   font-family: 'Cardo', serif;
 
 
-
-
 }
 
 .flex-container {
     display: flex;
+
 }
 
 .flex-child {
     flex: 1;
-    border: 0px solid yellow;
+    border: px solid yellow;
 }
 
 .flex-child:first-child {
     margin-right: 10px;
 }
 
-.accordion {
-  background-color: transparent;
-  color: #59E817;
-  cursor: pointer;
-  padding: 18px;
-  width: 70%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 30;
-  font-family: 'Cardo', serif;
-  transition: 0.4s;
-}
-
-.active, .accordion:hover {
-  background-color: transparent;
-  color: green;
-
-}
-
-.panel {
-  padding: 0 18px;
-  display: none;
-  background-color: #fff;
-  color: green;
-  overflow: hidden;
-}
 
 @media(max-width: 768px){
 
@@ -148,16 +136,20 @@ body{
 
     .accordion {
       font-size:20px;
+}
+    .flex-container {
+          display: flex;
+          flex-direction: column;
 
 }}
 
 a {
-  color: #59E817;
+  color: green;
 
 }
 
 a:hover {
-  color: green;
+  color: lightgreen;
 }
 
 a:link {
@@ -174,15 +166,21 @@ a:link {
 .titles{
   font-size: 20px;
   margin-left: 30px;
-  color: #59E817;
-    background-color: aliceblue;
+  color: green;
 }
 
 .text{
-  font-size: 15;
+  font-size: 15px;
   margin-left: 20px;
   color: green;
-  width: 50%;
+  width: 70%;
+}
+
+
+.details{
+  font-size: 15px;
+  margin-left: 30px;
+  color: green;
 }
 
 .img1{
@@ -205,12 +203,9 @@ a:link {
        float: right;
      }
 
-     #center{
-       margin-left: 100px;
-     }
-
      #first {
       z-index: 2;
+
     }
 
     #second {
@@ -221,7 +216,6 @@ a:link {
 
 
 </style>
-
 
 
 </html>
